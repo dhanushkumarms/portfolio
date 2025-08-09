@@ -5,20 +5,20 @@ const projects = [
     id: 1,
     title: "KAARchive-AI Based Study Material Query Assistant",
     description: "AI-powered academic assistant that allows users to upload PDFs and get context-aware answers using semantic search and NLP.",
-    image: "/projects/image.png",
+    image: "/projects/kaar_ai.png",
     tags: ["ASP.NET Core", "MySQL", "Azure", "ChatPDF API"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ITZsanthosh369/KAARchive.git",
   },
   {
     id: 2,
     title: "CampusConnect - College Communication Platform",
     description:
       "Robust full-stack web app to streamline academic communication with real-time chat, announcements, forums, and alumni interactions.",
-    image: "/projects/adl.png",
+    image: "/projects/campusconnect.png",
     tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "#https://github.com/ITZsanthosh369/Campus.git",
   },
   {
     id: 3,
@@ -27,8 +27,8 @@ const projects = [
       "Location-based web platform that connects service seekers with local providers using real-time geolocation and secure notifications.",
     image: "/projects/image4.png",
     tags: ["Node.js", "Express.js", "MongoDB", "Google Maps API"],
-    demoUrl: "https://bonsai-real-estate.netlify.app/",
-    githubUrl: "https://github.com/Nirjith13/real-estate_website",
+    demoUrl: "#",
+    githubUrl: "https://github.com/ITZsanthosh369/SPOTWISE.git",
   },
   
 ];
@@ -53,11 +53,11 @@ export const ProjectsSection = () => {
               key={key}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
-              <div className="h-48 overflow-hidden">
+              <div className="h-50 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
 

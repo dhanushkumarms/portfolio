@@ -2,7 +2,7 @@ import { ArrowUp, Github, Linkedin } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="py-8 px-6 bg-card relative border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+    <footer className="py-4 px-4 bg-card relative border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
       <div className="text-center md:text-left">
         <p className="text-sm text-muted-foreground">
           &copy; {new Date().getFullYear()} Dhanushkumar M. All rights reserved.
